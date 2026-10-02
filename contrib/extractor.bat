@@ -9,7 +9,7 @@ ECHO =========================================================
 ECHO.
 ECHO ======================================================
 ECHO WARNING! When extracting the vmaps extractor will
-ECHO output the textS below, it's intended and not an error:
+ECHO output the text below, it's intended and not an error:
 ECHO ======================================================
 ECHO Extracting World\Wmo\Band\Final_Stage.wmo
 ECHO No such file.
@@ -26,7 +26,7 @@ ECHO 4: Extract all (may take hours)
 ECHO 5: Extract all with logs (may take hours)
 ECHO 6: EXIT
 ECHO.
-SET /P M=Type 1, 2, 3, 4, 5 or 6 then press ENTER:
+SET /P M=Type 1, 2, 3, 4, 5 or 6 then press ENTER: 
 IF %M%==1 GOTO MAPS
 IF %M%==2 GOTO VMAPS
 IF %M%==3 GOTO MMAPS
